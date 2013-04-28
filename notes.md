@@ -1,0 +1,21 @@
+## perspective ##
+* the design of such systems requires careful communication of end goals between IT and Archives experts; balancing them with the designated community
+
+
+
+### Preservation Action ###
+
+#### Secure Storage ####
+
+#### Clean and Validate ####
+* also, maintain the original, intact
+#### Data Structure ####
+* ultra-stable formats
+    * ASCII/UNICODE, XML
+
+#### Methods ####
+* Emulation
+* Migration, Normalization
+    * normalization formats should be ultra-stable, sound, well-known
+    * Migration will be required in time, but will be eased by our previous use of standard formats
+
