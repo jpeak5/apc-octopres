@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2013.4.23)  28 APR 2013 14:24
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2013.4.23)  28 APR 2013 22:24
 entering extended mode
  %&-line parsing enabled.
 **\input draft.tex
@@ -111,30 +111,36 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 7.
 
 (/usr/share/texmf/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2002/01/19 v2.2g AMS font definitions
-) [1
+) (./tex/introduction.tex)
+(./tex/proj-description.tex (./tex/proj-bkgnd.tex [1
 
-{/usr/share/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./draft.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 4--6
-[]\OT1/cmr/m/n/10 Best prac-tices for TEI in li-braries.  http://www.tei-
+{/usr/share/texmf/fonts/map/pdftex/updmap/pdftex.map}]) (./tex/goals.tex (./tex
+/scope.tex)))
+(./tex/reqs.tex [2]) (./tex/early.tex
+Overfull \hbox (7.65654pt too wide) in paragraph at lines 5--6
+[]\OT1/cmr/m/n/10 The full stack of tech-nolo-gies un-der-ly-ing Omeka
  []
 
-) [2] (./draft.aux) ) 
+) (./tex/arch-soft.tex) (./tex/formats.tex [3]) (./tex/info-struct.tex)
+(./draft.bbl) [4] (./draft.aux) ) 
 Here is how much of TeX's memory you used:
- 1125 strings out of 256216
- 12074 string characters out of 1917072
- 60045 words of memory out of 1500000
- 4443 multiletter control sequences out of 10000+200000
- 9852 words of font info for 37 fonts, out of 1200000 for 2000
+ 1165 strings out of 256216
+ 12619 string characters out of 1917072
+ 61059 words of memory out of 1500000
+ 4449 multiletter control sequences out of 10000+200000
+ 11111 words of font info for 41 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
- 27i,6n,24p,811b,196s stack positions out of 5000i,500n,6000p,200000b,15000s
-</usr/share/texmf/fonts/type1/bluesky/cm/cmbx10.pfb></usr/
-share/texmf/fonts/type1/bluesky/cm/cmbx12.pfb></usr/share/texmf/fonts/type1/blu
-esky/cm/cmr10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr12.pfb></usr/shar
-e/texmf/fonts/type1/bluesky/cm/cmr17.pfb></usr/share/texmf/fonts/type1/bluesky/
-cm/cmti10.pfb>
-Output written on draft.pdf (2 pages, 47714 bytes).
+ 27i,6n,24p,849b,196s stack positions out of 5000i,500n,6000p,200000b,15000s
+</usr/share/texmf/fonts/type1/bluesky/cm/cmbx1
+0.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmbx12.pfb></usr/share/texmf/fon
+ts/type1/bluesky/cm/cmbx9.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr10.pf
+b></usr/share/texmf/fonts/type1/bluesky/cm/cmr12.pfb></usr/share/texmf/fonts/ty
+pe1/bluesky/cm/cmr17.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr9.pfb></us
+r/share/texmf/fonts/type1/bluesky/cm/cmti10.pfb></usr/share/texmf/fonts/type1/b
+luesky/cm/cmti9.pfb>
+Output written on draft.pdf (4 pages, 84995 bytes).
 PDF statistics:
- 33 PDF objects out of 1000 (max. 8388607)
+ 51 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

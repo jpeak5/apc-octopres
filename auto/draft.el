@@ -4,15 +4,25 @@
      "bib")
     (TeX-add-symbols
      "projectname"
-     "APC"
+     "apc"
      "bwj"
      "slm"
      "bgm"
-     "gm")
+     "gm"
+     "maglist"
+     "needcite")
     (TeX-run-style-hooks
      "amsmath"
      "amssymb"
      "latex2e"
      "art10"
-     "article")))
+     "article"
+     "oneside"
+     "tex/introduction"
+     "tex/proj-description"
+     "tex/reqs"
+     "tex/early"
+     "tex/arch-soft"
+     "tex/formats"
+     "tex/info-struct")))
 

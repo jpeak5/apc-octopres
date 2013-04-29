@@ -5,30 +5,26 @@
 	url = {https://136.167.2.46/ojs/index.php/ital/article/view/1917},
 	number = {3},
 	urldate = {2013-04-27},
+	journal = {Information Technology and Libraries},
 	author = {Gartner, Richard},
 	year = {2012},
 	pages = {24–35},
 	file = {pdf.pdf:/home/jpeak5/.mozilla/firefox/442madvt.default/zotero/storage/FCE99TH3/pdf.pdf:application/pdf}
 },
 
-@misc{tei_sig_on_libraries_best_2011,
+@misc{bpgtei,
 	type = {Text},
 	title = {Best Practices for {TEI} in Libraries},
 	url = {http://www.tei-c.org/SIG/Libraries/teiinlibraries/main-driver.html},
 	urldate = {2013-04-28},
-	author = {{{TEI} {SIG} on Libraries}},
-	month = oct,
-	year = 2011,
 	howpublished = {http://www.tei-{c.org/SIG/Libraries/teiinlibraries/main-driver.html}},
 	file = {Snapshot:/home/jpeak5/.mozilla/firefox/442madvt.default/zotero/storage/5WTB8UT7/main-driver.html:text/html}
 },
 
-@misc{lisa_spiro_archival_2009,
-	title = {Archival Management Systems},
+@misc{archivalsoftware,
+	title = {archivalsoftware / Types of Software},
 	url = {http://archivalsoftware.pbworks.com/w/page/13600265/Types%20of%20Software},
 	urldate = {2013-04-28},
-	author = {{Lisa Spiro}},
-	year = {2009},
 	howpublished = {{http://archivalsoftware.pbworks.com/w/page/13600265/Types\%20of\%20Software}},
 	file = {archivalsoftware / Types of Software:/home/jpeak5/.mozilla/firefox/442madvt.default/zotero/storage/6HAZXNH8/Types of Software.html:text/html}
 }
