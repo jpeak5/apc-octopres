@@ -1,0 +1,28 @@
+Workflow is loosely defined here. Inevitably, refinements will be made as issues are discovered and resolved. The acquisition process, from capture to ingest, can be imagined as a pipeline starting from the physical original and ending with an archival Submission Information Package (SIP). Stages in this pipeline include: 
+\begin{enumerate}
+  \item{Scan}
+  \item{OCR}
+  \item{OCR correction}
+  \item{TEI markup}
+  \item{packaging}
+\end{enumerate}
+%This chain of functions can be represented as $SIP ::= TEI(text(scan(page)))$
+While each stage will require human intervention and oversight, the OCR correction stage is expected to incur the most significant outlay of human resources. 
+\subsection{Scan}
+We intend to use facilities in the Hill Memorial Library for the bulk of the scans. This equipment is designed to scan a full page spread, two facing pages, at a time, but each page is saved as a discrete file. Scanning will be applied to each page in each issue of each periodical in the project scope.
+
+
+
+The scanning process will operate at the page level and will require manual operation. It will take as input physical original peridical pages and return as output a simgle high resolution TIFF image per page and text extracted through OCR. The products of this process are the basis of the archive.
+\begin{description}
+  \item[periodical]{physical original magazine}
+  \item[page]{leaf of a periodical}
+  \item[scan]{digitization of leaf to TIFF}
+  \item[TIFF]{image of leaf}
+  \item[OCR]{process by which text is extracted from TIFF}
+  \item[raw text]{output of OCR}
+  \item[OCR correction]{manual process by which machine interpretation errors are corrected by humans}
+  \item[TEI-1]{baseline format of text for archival storage}
+  \item[SIP]{METS-encoded record of a single periodical issue containing TIFF + TEI of each leaf contained in the original}
+\end{description}
+

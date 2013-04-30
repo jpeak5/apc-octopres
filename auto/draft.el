@@ -10,8 +10,11 @@
      "bgm"
      "gm"
      "maglist"
-     "needcite")
+     "needcite"
+     "needswork")
     (TeX-run-style-hooks
+     "algorithmic"
+     "algorithm"
      "amsmath"
      "amssymb"
      "latex2e"
@@ -22,7 +25,9 @@
      "tex/proj-description"
      "tex/reqs"
      "tex/early"
-     "tex/arch-soft"
+     "tex/forward"
      "tex/formats"
+     "tex/workflow"
+     "tex/arch-soft"
      "tex/info-struct")))
 

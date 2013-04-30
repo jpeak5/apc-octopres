@@ -1,6 +1,6 @@
 \documentclass[oneside]{article}
 \bibliographystyle{plain}
-\usepackage{amssymb,amsmath}
+\usepackage{amssymb,amsmath, algorithm,algorithmic}
 \begin{document}
 \title{Preserving Antebellum Print Culture}
 \author{Jason Peak}
@@ -14,8 +14,12 @@
 \def\bgm{\emph{Burton's Gentleman's Magazine}}
 \def\gm{\emph{Graham's Magazine}}
 \def\maglist{\bgm, \bwj, \gm, and the \slm}
-\def\needcite{[citation]}
 
+%TODO
+\def\needcite{[citation]}
+\def\needswork{[needs much work for inclusion]}
+
+%begin content
 \begin{abstract}
 \input{tex/introduction.tex}
 \end{abstract}
@@ -33,11 +37,17 @@
 \section{Early Investigations}
 \input{tex/early.tex}
 
-\section{Archives Software}
-\input{tex/arch-soft.tex}
+\section{The Way Forward}
+\input{tex/forward.tex}
 
 \section{Formats and Standards}
 \input{tex/formats.tex}
+
+\section{Workflow}
+\input{tex/workflow.tex}
+
+\section{Archives Software}
+\input{tex/arch-soft.tex}
 
 \section{Information Structure}
 \input{tex/info-struct.tex}
