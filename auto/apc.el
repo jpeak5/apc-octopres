@@ -19,7 +19,7 @@
      "article"
      "oneside"
      "tex/goals"
-     "tex/early"
+     "tex/current"
      "tex/forward"
      "tex/formats"
      "tex/workflow"
