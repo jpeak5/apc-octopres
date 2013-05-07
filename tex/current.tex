@@ -1,6 +1,5 @@
-Early investigations into software solutions for this project have centered around the popular Omeka publishing platform. We have used Omeka as a holistic solution to the multiple requirements: archival storage, ingest, access. Omeka is a web platform written in PHP and based on the industry standard Zend framework. The application relies on a database, in our case, MySQL, to maintain state, application configuration, user access control, record content, record metadata, and RDF-like inter-record relationship data.
-\subsection{Archival Storage}
-Using Omeka as an archive has a number of advantages:
-\begin{description}
-  \item[open source, open standards]{The full stack of technologies underlying Omeka as archive are open source and based on open standards. While the platform can be deployed on the Windows OS, it is more commonly hosted on servers running open source linux. While our institutional infrastructure has decreed that we use Red Hat linux, a commercialized distribution, we could have just as easily chosen Ubuntu or any of the myriad free distribution. MySQL is a well-known, widely-used database made available by Oracle. }
-\end{description}
+Currently, the project uses the popular Omeka publishing platform as repository, content ingest and administration interface, and dissemination portal. The application relies on a relational database to maintain application state and configuration, to control user access, for persistent records and metadata storage, and for RDF-like inter-record relationship data. 
+
+Besides offering a one-stop solution to the needs of a small repository, Omeka is freely available and open source from top to bottom. It is written in PHP and based on the industry standard Zend PHP framework. It can be fitted to a number of databases, including PostgreSQL and MySQL, which are also free and open source. Rounding out the Omeka architecture is the apache webserver running on linux. Using open source software allows the team great flexibility in customizing the software, and independence in resolving technical issues. As the project goals outgrow the capabilities of Omeka, finding a similarly open replacement will be in keeping with archival best practices \needcite
+
+
