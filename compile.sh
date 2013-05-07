@@ -1,4 +1,9 @@
 #!/bin/bash
+
+git add .
+git commit -m "auto-commit"
+git push origin master
+
 latex apc.tex
 bibtex apc.aux
 latex apc.tex
