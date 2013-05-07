@@ -1,0 +1,297 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.1//EN">
+
+<!--Converted with LaTeX2HTML 2008 (1.71)
+original version by:  Nikos Drakos, CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others -->
+<HTML>
+<HEAD>
+<TITLE>Preserving Antebellum Print Culture</TITLE>
+<META NAME="description" CONTENT="Preserving Antebellum Print Culture">
+<META NAME="keywords" CONTENT="apc">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+
+<META NAME="Generator" CONTENT="LaTeX2HTML v2008">
+<META HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+
+<LINK REL="STYLESHEET" HREF="apc.css">
+
+</HEAD>
+
+<BODY >
+
+<P>
+
+<H1><A NAME="SECTION00010000000000000000">
+Goals</A>
+</H1>
+
+<H3><A NAME="SECTION00010100000000000000">
+Core</A>
+</H3>
+Immediate project goals include digitizing each page of every periodical volume of which Poe took part. Considering only the years in which he was actively employed by these editorials, the corpus contains just less than 4,000 pages. The primary deliverable for the next stage of this project will be a permanent, web-accessible repository of a scan for each page and fully searchable text. The tasks, explored below, required to achieve core goals include scanning, text extraction, curation, and preservation. Facilities for research will include, at a minimum, document retrieval and full-text search. 
+
+<P>
+
+<H3><A NAME="SECTION00010200000000000000">
+Stretch</A>
+</H3>
+With core foundation blocks firmly laid, other services may be built that further enhance the value of this resource for research including scholarly annotation, semantic curation, and a range of APIs that expose the archive to other repositories and applications as Linked Open Data. Annotation will consist of moderated scholarly annotations made by local and distributed domain experts.  Semantic curation entails the identification and markup of the occurence of significant entities within the text, including people, places, corporate bodies. Client APIs will be developed and exposed to allow others to reuse the archived dataset for their own, as yet unimagined, purposes. In light of the current trend [citation]in archives towards Linked Open Data (LOD) and the aspirations of the project team, it is reasonable to consider the APC project well positioned to be one of the next notable contributors to this burgeoning community of archives.
+
+<P>
+
+<H1><A NAME="SECTION00020000000000000000">
+Requirements</A>
+</H1>
+<DL>
+<DT><STRONG>Archival Preservation</STRONG></DT>
+<DD>The APC project requires trusted archival preservation of its primary artifacts and derivative scholarship and interactions.
+  
+</DD>
+<DT><STRONG>Exposure</STRONG></DT>
+<DD>Artifacts and their metadata must be exposed to client applications including search engines, browsers, and visualization applications
+  
+</DD>
+<DT><STRONG>Granular markup</STRONG></DT>
+<DD>Text documents will be encoded in the TEI at the various levels enumerated in [<A
+ HREF="apc.html#tei_sig_on_libraries_best_2011">1</A>] 
+</DD>
+</DL>
+
+<P>
+
+<H1><A NAME="SECTION00030000000000000000">
+Current Investigations</A>
+</H1>
+Early investigations into software solutions for this project have centered around the popular Omeka publishing platform. We have used Omeka as a holistic solution to the multiple requirements: archival storage, ingest, access. Omeka is a web platform written in PHP and based on the industry standard Zend framework. The application relies on a database, in our case, MySQL, to maintain state, application configuration, user access control, record content, record metadata, and RDF-like inter-record relationship data.
+
+<H2><A NAME="SECTION00031000000000000000">
+Archival Storage</A>
+</H2>
+Using Omeka as an archive has a number of advantages:
+<DL>
+<DT><STRONG>open source, open standards</STRONG></DT>
+<DD>The full stack of technologies underlying Omeka as archive are open source and based on open standards. While the platform can be deployed on the Windows OS, it is more commonly hosted on servers running open source linux. While our institutional infrastructure has decreed that we use Red Hat linux, a commercialized distribution, we could have just as easily chosen Ubuntu or any of the myriad free distribution. MySQL is a well-known, widely-used database made available by Oracle. 
+</DD>
+</DL>
+
+<P>
+
+<H1><A NAME="SECTION00040000000000000000">
+Forward</A>
+</H1>
+Moving towards accomplishment of the core and stretch goals outlined previously, it is evident that the project should be ready to adopt new technologies into its existing information architecture. At the base, their must be a robust and trusted repository in which born-digital artifacts are deposited. The time and expense required to capture this corpus deserves no less, and we imagine that generations of future scholars and students will benefit from this effort, provided that the materials are well-preserved in accordance with the best practices currently known to the archives community. The term <SPAN  CLASS="textit">Trusted Digital Repository</SPAN> is loaded with implications and requirements that we will endeavor to satisfy. Standards exist [citation][DRAMBORA, TRAC] by which to measure and guide these efforts.
+
+<P>
+Further, in an increasingly interconnected and socially interlinked world, the digital archive assumes a certain burden to provide its content to patrons (researchers, students, the public) in increasingly compelling ways. One of the most promising technologies for achieving this end is embodied in the concept of a Semantic Web [citation][TBL]. The semantic web represents an inductive step beyond the character of the web we've grown to know in the last several decades. In this new web, hyperlinks are not merely a means by which to refer to some other, arbitrary, web resource, rather, the reference itself is imbued with an additional dimension that describes the nature of the relationship between the thing and what it points to. [citation][Barthes?] Employing such technology in an archives setting improves discoverability by expanding the role of the archive from simple document retrieval to something much richer.
+
+<P>
+The foregoing discussion connotes that access to the contents of the repository is a key driver of the effort. Indeed, our core goals will lead us to a stable and sustainable repository of the corpus, but opening the contents of that repository to outside research is where the project gains traction, value, and the sustainable funding required for permanence. In the following sections, we will explore the issues associated with both the core and stretch goals and recommend tools, standards and workflows for achieving them.
+
+<P>
+
+<H1><A NAME="SECTION00050000000000000000">
+Formats and Standards</A>
+</H1>
+
+<H2><A NAME="SECTION00051000000000000000">
+File Formats</A>
+</H2>
+
+<P>
+<DL>
+<DT><STRONG>Image</STRONG></DT>
+<DD>TIFF image format will be required
+  
+</DD>
+<DT><STRONG>Text</STRONG></DT>
+<DD>[all non0-image files will be XML]
+</DD>
+</DL>
+
+<P>
+
+<H2><A NAME="SECTION00052000000000000000">
+XML Formats</A>
+</H2>
+<DL>
+<DT><STRONG>TEI</STRONG></DT>
+<DD>
+  
+</DD>
+<DT><STRONG>METS</STRONG></DT>
+<DD>
+  
+</DD>
+<DT><STRONG>MODS</STRONG></DT>
+<DD>
+  
+</DD>
+<DT><STRONG>MADS</STRONG></DT>
+<DD>
+  
+</DD>
+<DT><STRONG>DC</STRONG></DT>
+<DD>
+  
+</DD>
+<DT><STRONG>SKOS</STRONG></DT>
+<DD>
+  
+</DD>
+<DT><STRONG>EAC-CPF</STRONG></DT>
+<DD>
+  
+</DD>
+<DT><STRONG>EAD</STRONG></DT>
+<DD>
+  
+</DD>
+<DT><STRONG>RDF</STRONG></DT>
+<DD>
+</DD>
+</DL>
+
+<P>
+
+<H2><A NAME="SECTION00053000000000000000">
+Standards</A>
+</H2>
+<DL>
+<DT><STRONG>OAIS</STRONG></DT>
+<DD>
+  
+</DD>
+<DT><STRONG>DRAMBORA</STRONG></DT>
+<DD>
+  
+</DD>
+<DT><STRONG>TRAC</STRONG></DT>
+<DD>
+</DD>
+</DL>
+
+<P>
+
+<H1><A NAME="SECTION00060000000000000000">
+Workflow</A>
+</H1>
+Workflow is loosely defined here. Inevitably, refinements will be made as issues are discovered and resolved. The acquisition process, from capture to ingest, can be imagined as a pipeline starting from the physical original and ending with an archival Submission Information Package (SIP). Stages in this pipeline include: 
+
+<OL>
+<LI>Scan
+</LI>
+<LI>OCR
+</LI>
+<LI>OCR correction
+</LI>
+<LI>TEI markup
+</LI>
+<LI>packaging
+</LI>
+</OL>
+While each stage will require human intervention and oversight, the OCR correction stage is expected to incur the most significant outlay of human resources. 
+
+<H2><A NAME="SECTION00061000000000000000">
+Scan</A>
+</H2>
+We intend to use facilities in the Hill Memorial Library for the bulk of the scans. This equipment is designed to scan a full page spread, two facing pages, at a time, but each page is saved as a discrete file. Scanning will be applied to each page in each issue of each periodical in the project scope.
+
+<H2><A NAME="SECTION00062000000000000000">
+OCR to Text</A>
+</H2>
+The ability to read the text contained in these pages is the basis of any scholarship and research to be done. The ability to perform computer-assisted search and retrieval can only be accomplished with machine readable text. 
+
+<P>
+The scanning process will operate at the page level and will require manual operation. It will take as input physical original peridical pages and return as output a simgle high resolution TIFF image per page and text extracted through OCR. The products of this process are the basis of the archive.
+<DL>
+<DT><STRONG>periodical</STRONG></DT>
+<DD>physical original magazine
+  
+</DD>
+<DT><STRONG>page</STRONG></DT>
+<DD>leaf of a periodical
+  
+</DD>
+<DT><STRONG>scan</STRONG></DT>
+<DD>digitization of leaf to TIFF
+  
+</DD>
+<DT><STRONG>TIFF</STRONG></DT>
+<DD>image of leaf
+  
+</DD>
+<DT><STRONG>OCR</STRONG></DT>
+<DD>process by which text is extracted from TIFF
+  
+</DD>
+<DT><STRONG>raw text</STRONG></DT>
+<DD>output of OCR
+  
+</DD>
+<DT><STRONG>OCR correction</STRONG></DT>
+<DD>manual process by which machine interpretation errors are corrected by humans
+  
+</DD>
+<DT><STRONG>TEI-1</STRONG></DT>
+<DD>baseline format of text for archival storage
+  
+</DD>
+<DT><STRONG>SIP</STRONG></DT>
+<DD>METS-encoded record of a single periodical issue containing TIFF + TEI of each leaf contained in the original
+</DD>
+</DL>
+
+<P>
+
+<H1><A NAME="SECTION00070000000000000000">
+Archives Software</A>
+</H1>
+A number of software packages exist for managing digital collections, and more are currently under development. Notable among these are ContentDM, Fedora, D-Space
+
+<P>
+
+<H1><A NAME="SECTION00080000000000000000">
+Information Structure</A>
+</H1>
+
+<H2><A NAME="SECTION00081000000000000000">
+METS Records</A>
+</H2>
+METS is a structural description and container format that can wrap other formats including TEI, RDF, MODS, EAD, etc. It enjoys widespread use and the endorsement of leading archival institutions, including the Library of Congress. As a structural description format, it is an ideal choice for storing records of multipage documents [citation]. Fedora uses METS.
+
+<P>
+
+<H1><A NAME="SECTION00090000000000000000">
+Questions</A>
+</H1>
+
+<OL>
+<LI>What examples of RDF + Fedora exist?
+</LI>
+<LI>describe the mapping from DC -&gt; METS; is this automated in Fedora
+</LI>
+</OL>
+
+<P>
+
+<H2><A NAME="SECTION000100000000000000000">
+Bibliography</A>
+</H2><DL COMPACT><DD><P></P><DT><A NAME="tei_sig_on_libraries_best_2011">1</A>
+<DD>
+TEI SIG on Libraries.
+<BR>Best practices for TEI in libraries.
+<BR>http://www.tei-c.org/SIG/Libraries/teiinlibraries/main-driver.html,
+  October 2011.
+</DL>
+
+<P>
+<BR><HR>
+<ADDRESS>
+jpeak5
+2013-05-07
+</ADDRESS>
+</BODY>
+</HTML>
