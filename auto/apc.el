@@ -1,0 +1,28 @@
+(TeX-add-style-hook "apc"
+ (lambda ()
+    (LaTeX-add-bibliographies
+     "bib")
+    (TeX-add-symbols
+     "projectname"
+     "bwj"
+     "slm"
+     "bgm"
+     "gm"
+     "maglist"
+     "needcite"
+     "needswork")
+    (TeX-run-style-hooks
+     "amsmath"
+     "amssymb"
+     "latex2e"
+     "art10"
+     "article"
+     "oneside"
+     "tex/goals"
+     "tex/early"
+     "tex/forward"
+     "tex/formats"
+     "tex/workflow"
+     "tex/arch-soft"
+     "tex/info-struct")))
+
