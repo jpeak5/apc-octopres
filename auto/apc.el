@@ -23,6 +23,6 @@
      "tex/forward"
      "tex/formats"
      "tex/workflow"
-     "tex/arch-soft"
+     "tex/migration"
      "tex/info-struct")))
 
