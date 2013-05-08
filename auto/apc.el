@@ -12,6 +12,7 @@
      "needcite"
      "needswork")
     (TeX-run-style-hooks
+     "graphicx"
      "amsmath"
      "amssymb"
      "latex2e"
