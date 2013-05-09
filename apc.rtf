@@ -72,7 +72,7 @@
 }
 {\info
 {\title Original file was apc.tex}
-{\doccomm Created using latex2rtf 2.3.3 r1230 (released Feb 26, 2013) on Thu May  9 10:09:46 2013
+{\doccomm Created using latex2rtf 2.3.3 r1230 (released Feb 26, 2013) on Thu May  9 10:13:23 2013
 }
 }
 {\footer\pard\plain\f0\fs24\qc\chpgn\par}
@@ -81,9 +81,8 @@
 \pard\plain\s21\qc\sa120\f0\fs24\sl480\slmult1 \fi360 Jason Peak\par
 \pard\plain\s21\qc\sa120\f0\fs24\sl480\slmult1 \fi360 \chdate \par
 {\pard\plain\s70\qc\sa120\b\f0\fs24\sl480\slmult1 \fi360 Abstract\par
-\pard\plain\s0\qj\widctlpar\f0\fs24\sl480\slmult1 \li1024\ri1024\fi360  {\par
-\pard\plain\s0\qj\widctlpar\f0\fs24\sl480\slmult1 \li1024\ri1024\fi0 \qc [Sorry. Ignored {\plain\f3\\begin\{singlespace\} ... \\end\{singlespace\}}]\par
-}}\pard\plain\s3\ql\sb240\sa120\keepn\f0\b\fs32\sl480\slmult1 \sb360 \fi0 1  Core Goals and Requirements\par
+\pard\plain\s0\qj\widctlpar\f0\fs24\sl480\slmult1 \li1024\ri1024\fi360  Poe\rquote s Magazine World, a digital humanities project centered around the literary culture of the 1840s in America, seeks to accumulate and present digital artifacts that re-contextualize this period in history for future readers, students and researchers. The project team is composed of a cross-disciplinary mix of scholars and students committed to establishing a research archive for the equally diverse audience of scholarly researchers, students and the general public. At its broadest, the scope of the project includes all American Antebellum authors and would take shape as part of a consortium of linked archives. As a first step, however, the project will focus on Poe\rquote s involvement with four periodicals, the {\i The Broadway Journal}{}, {\i Southern Literary Messenger}{}, {\i Burton\rquote s Gentleman\rquote s Magazine}{} and {\i Graham\rquote s Magazine}{}. \par
+}\pard\plain\s3\ql\sb240\sa120\keepn\f0\b\fs32\sl480\slmult1 \sb360 \fi0 1  Core Goals and Requirements\par
 \pard\plain\s0\qj\widctlpar\f0\fs24\sl480\slmult1 \sb60 \fi0 For the editions of the magazines that Poe edited, the page count is about 4,000. The primary project goal is the establishment of a digital repository containing the text and scanned image of each of these pages. In addition to making each page image available,the text should be fully searchable. Providing access to page images and text search tools implies an access-controlled, web-based interface. Maintaining the integrity of complex, mixed-media, multi-page document records requires sturdy archival frameworks and flexible metadata standards. \par
 \pard\plain\s4\ql\sb240\sa120\keepn\f0\b\fs32\sl480\slmult1 \sb120 \fi0 1.1  Additional Opportunities\par
 \pard\plain\s0\qj\widctlpar\f0\fs24\sl480\slmult1 \sb60 \fi0 With core foundation blocks laid, the team will build up enhanced access services, including annotation, semantic search, and the infrastructure to expose the repository as linked open data. {\par
@@ -514,11 +513,30 @@ ba152b56b8b9b9393a3a3ef5d453ebd7afdfbd7bf7d1a347cbcbcba57e83c0402a2b2b0b0b0bf7ef
 \pard\plain\s0\qj\widctlpar\f0\fs24\sl480\slmult1 \sb60 \fi0 METS is an XML format for describing the structure of archival digital objects. METS records are used to describe books, for example, where a single METS record represents the book, and nested within this record is a METS record for each page. Each of these page records contains, at a minimum, a reference to the TIFF image of the page and the TEI markup of the text. In addition to describing structure, METS is a container format for other metadata formats. Commonly including in a mets:mdwrap element are RDF elements for semantic mappings, MODS records for bibliographic and library catalog information, EAD finding aids, and so on. It enjoys widespread use and the endorsement of leading archival institutions, including the Library of Congress. \par
 \pard\plain\s4\ql\sb240\sa120\keepn\f0\b\fs32\sl480\slmult1 \sb120 \fi0 5.3  TEI, Level 1\par
 \pard\plain\s0\qj\widctlpar\f0\fs24\sl480\slmult1 \sb60 \fi0 TEI SIG\rquote s Best Practices of TEI in Libraries enumerates five levels of TEI encoding that describe increasingly complex markup. The baseline text for each page will have the characteristics of this Level 1 TEI and will serve as the base upon which enhanced readings are built. {\par
-{\pard\plain\s0\qj\widctlpar\f0\fs24\sl480\slmult1 \sb60 \li512\ri512\fi0 \qc [Sorry. Ignored {\plain\f3\\begin\{singlespace\} ... \\end\{singlespace\}}]\par
-}}\pard\plain\s4\ql\sb240\sa120\keepn\f0\b\fs32\sl480\slmult1 \sb180 \fi0 5.4  OCR Cleanup and TEI\par
+\pard\plain\s0\qj\widctlpar\f0\fs24\sl480\slmult1 \sb60 \li512\ri512\fi360 The text is subordinate to the page image, and is not intended to stand alone as an electronic text (without page images). Level 1 texts are not intended to be adequate for textual analysis; they are more likely to be suited to the goals of a preservation unit or mass digitization initiative. Though their encoding is minimal, Level 1 texts are fully valid XML texts. In addition to taking advantage of the TEI header, these texts, while lightly encoded, can be easily combined with more richly encoded texts (that also follow these guidelines) for searching. Further encoding based on document structures or content analysis can be added to a Level 1 text at any time. Level 1 is most suitable for projects with the following characteristics {\par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs24\sl480\slmult1 \sb50 \li1112\ri512\fi-300 \bullet\tab
+{a large volume of material is to be made available online quickly} \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs24\sl480\slmult1 \sb50 \li1112\ri512\fi-300 \bullet\tab
+{a digital image of each page is desired} \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs24\sl480\slmult1 \sb50 \li1112\ri512\fi-300 \bullet\tab
+{no manual intervention will be performed in the text creation process} \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs24\sl480\slmult1 \sb50 \li1112\ri512\fi-300 \bullet\tab
+{the material is of interest to a large community of users who wish to read texts that allow keyword searching} \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs24\sl480\slmult1 \sb50 \li1112\ri512\fi-300 \bullet\tab
+{sophisticated search and display capabilities based on the structure of the text are not necessary} \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs24\sl480\slmult1 \sb50 \li1112\ri512\fi-300 \bullet\tab
+{extensibility is desired; that is, one desires to keep open the option for a higher level of encoding to be added at a later date} \par
+}
+\pard\plain\s0\qj\widctlpar\f0\fs24\sl480\slmult1 \sb60 \li512\ri512\fi0 [{\field{\*\fldinst{\lang1024 REF BIB_tei_sig_on_libraries_best_2011 \\* MERGEFORMAT }}{\fldrslt{13}}}
+] \par
+}\pard\plain\s4\ql\sb240\sa120\keepn\f0\b\fs32\sl480\slmult1 \sb180 \fi0 5.4  OCR Cleanup and TEI\par
 \pard\plain\s0\qj\widctlpar\f0\fs24\sl480\slmult1 \sb60 \fi0 Cleaning dirty OCR is an intensely human process. Each word in each page must be compared to the original for fidelity; errors will be corrected in standard text-editing software. Dual monitors will be necessary for the staff performing this work. In addition, spell-checking utilities will identify gross errors introduced by the OCR process. While we will aim for perfection, errors will remain. The repository should plan for these future text updates and determine utilities for propogating revisions to derivative versions. The process of manually correcting OCR text is a prerequisite for the intermediate TEI levels three and four. In the scope of the initial project phase, described here, it is likely that TEI levels above three will be used only for a few proof of concept and highlight cases. Level 2 does not require corrected text and still treats the text as subordinate to the page image while making some additional structural markup. Level three TEI is most fitting at this stage, and the TEI SIG describes it as follows: {\par
-{\pard\plain\s0\qj\widctlpar\f0\fs24\sl480\slmult1 \sb60 \li512\ri512\fi0 \qc [Sorry. Ignored {\plain\f3\\begin\{singlespace\} ... \\end\{singlespace\}}]\par
-}}\pard\plain\s4\ql\sb240\sa120\keepn\f0\b\fs32\sl480\slmult1 \sb180 \fi0 5.5  Conclusion\par
+\pard\plain\s0\qj\widctlpar\f0\fs24\sl480\slmult1 \sb60 \li512\ri512\fi360 Encoding at this level provides the foundation for upgrading to higher levels of encoding. Level 3 generally requires some human editing, but the features to be encoded are determined by the logical structure and appearance of the text and not specialized content analysis.\par
+\pard\plain\s0\qj\widctlpar\f0\fs24\sl480\slmult1 \li512\ri512\fi360 Level 3 texts identify front and back matter, textual divisions, and all paragraph breaks. Floating texts, or sub-texts like a poem or letter embedded in the greater text, are supported in this level. The finer granularity of encoding these features, as well as figures, notes, and all changes of typography, allows a range of options for display, delivery, and searching. For example, one has the option of identifying, and therefore specifying, the display characteristics of different typographic styles, and regularizing the display and placement of note text.\par
+\pard\plain\s0\qj\widctlpar\f0\fs24\sl480\slmult1 \li512\ri512\fi360 Level 3 texts can stand alone as text without page images, and therefore can be uploaded, downloaded, and delivered quickly, and require less storage space than digital collections with page images. However, the simple level of structural analysis and absence of specialized content analysis reflected in Level 3 encoding may make it desirable for some, depending on project priorities, to include page images in order to provide users with a fuller set of resources. 
+[{\field{\*\fldinst{\lang1024 REF BIB_tei_sig_on_libraries_best_2011 \\* MERGEFORMAT }}{\fldrslt{13}}}
+] \par
+}\pard\plain\s4\ql\sb240\sa120\keepn\f0\b\fs32\sl480\slmult1 \sb180 \fi0 5.5  Conclusion\par
 \pard\plain\s0\qj\widctlpar\f0\fs24\sl480\slmult1 \sb60 \fi0 In a recent CLIR report, warns against insularity in planning Digital Humanities projects and validates this project\rquote s aims towards linked data. {\par
 \pard\plain\s0\qj\widctlpar\f0\fs24\sl480\slmult1 \sb60 \li512\ri512\fi360 The silo-like nature of current centers is creating untethered digital production that is detrimental to the needs of humanities scholarship. Today\u226?\u8364?\u8482?s centers favor individual projects that address specialized research interests. These projects are rarely integrated into larger digital resources that would make them more widely known and available for the research community. As a result, they receive little exposure outside their center and are at greater risk of being orphaned over time.
 [{\field{\*\fldinst{\lang1024 REF BIB_zorich \\* MERGEFORMAT }}{\fldrslt{14}}}

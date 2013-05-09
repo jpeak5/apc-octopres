@@ -22,7 +22,7 @@ METS is an XML format for describing the structure of archival digital objects. 
 \subsection{TEI, Level 1}
 TEI SIG's Best Practices of TEI in Libraries enumerates five levels of TEI encoding that describe increasingly complex markup. The baseline text for each page will have the characteristics of this Level 1 TEI and will serve as the base upon which enhanced readings are built.
 \begin{quote}
-\begin{singlespace}
+%\begin{singlespace}
 The text is subordinate to the page image, and is not intended to stand alone as an electronic text (without page images). Level 1 texts are not intended to be adequate for textual analysis; they are more likely to be suited to the goals of a preservation unit or mass digitization initiative. Though their encoding is minimal, Level 1 texts are fully valid XML texts. In addition to taking advantage of the TEI header, these texts, while lightly encoded, can be easily combined with more richly encoded texts (that also follow these guidelines) for searching. Further encoding based on document structures or content analysis can be added to a Level 1 text at any time.
 Level 1 is most suitable for projects with the following characteristics
 \begin{itemize}
@@ -34,20 +34,20 @@ Level 1 is most suitable for projects with the following characteristics
     \item{extensibility is desired; that is, one desires to keep open the option for a higher level of encoding to be added at a later date}
 \end{itemize}
 \cite{tei_sig_on_libraries_best_2011}
-\end{singlespace}
+%\end{singlespace}
 \end{quote}
 \subsection{OCR Cleanup and TEI}
 Cleaning dirty OCR is an intensely human process. Each word in each page must be compared to the original for fidelity; errors will be corrected in standard text-editing software. Dual monitors will be necessary for the staff performing this work. In addition, spell-checking utilities will identify gross errors introduced by the OCR process. While we will aim for perfection, errors will remain. The repository should plan for these future text updates and determine utilities for propogating revisions to derivative versions.
 The process of manually correcting OCR text is a prerequisite for the intermediate TEI levels three and four. In the scope of the initial project phase, described here, it is likely that TEI levels above three will be used only for a few proof of concept and highlight cases. Level 2 does not require corrected text and still treats the text as subordinate to the page image while making some additional structural markup. Level three TEI is most fitting at this stage, and the TEI SIG describes it as follows:
 \begin{quote}
-\begin{singlespace}
+%\begin{singlespace}
 Encoding at this level provides the foundation for upgrading to higher levels of encoding. Level 3 generally requires some human editing, but the features to be encoded are determined by the logical structure and appearance of the text and not specialized content analysis.
 
 Level 3 texts identify front and back matter, textual divisions, and all paragraph breaks. Floating texts, or sub-texts like a poem or letter embedded in the greater text, are supported in this level. The finer granularity of encoding these features, as well as figures, notes, and all changes of typography, allows a range of options for display, delivery, and searching. For example, one has the option of identifying, and therefore specifying, the display characteristics of different typographic styles, and regularizing the display and placement of note text.
 
 Level 3 texts can stand alone as text without page images, and therefore can be uploaded, downloaded, and delivered quickly, and require less storage space than digital collections with page images. However, the simple level of structural analysis and absence of specialized content analysis reflected in Level 3 encoding may make it desirable for some, depending on project priorities, to include page images in order to provide users with a fuller set of resources.
 \cite{tei_sig_on_libraries_best_2011}
-\end{singlespace}
+%\end{singlespace}
 \end{quote}
 \subsection{Conclusion}
 In a recent CLIR report, warns against insularity in planning Digital Humanities projects and validates this project's aims towards linked data.
