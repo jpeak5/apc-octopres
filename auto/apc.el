@@ -28,6 +28,5 @@
      "tex/forward"
      "tex/core-tools"
      "tex/migration"
-     "tex/workflow"
-     "tex/info-struct")))
+     "tex/workflow")))
 

@@ -15,5 +15,6 @@
      "islandora-sandbox"
      "archivematica-main"
      "fedora-connector"
-     "fedora-frontends")))
+     "fedora-frontends"
+     "zorich")))
 
