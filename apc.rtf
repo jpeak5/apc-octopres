@@ -72,12 +72,18 @@
 }
 {\info
 {\title Original file was apc.tex}
-{\doccomm Created using latex2rtf 2.3.3 r1230 (released Feb 26, 2013) on Wed May  8 23:02:52 2013
+{\doccomm Created using latex2rtf 2.3.3 r1230 (released Feb 26, 2013) on Wed May  8 23:17:21 2013
 }
 }
 {\footer\pard\plain\f0\fs24\qc\chpgn\par}
 \paperw12280\paperh15900\margl2680\margr2700\margt2540\margb1760\pgnstart0\widowctrl\qj\ftnbj\f0\aftnnar
-{\pard\plain\s3\ql\sb240\sa120\keepn\f0\b\fs32\sl480\slmult1 \sb240 \fi0 1  Core Goals and Requirements\par
+{\pard\plain\s20\qc\sb240\sa240\b\f0\fs36\sl480\slmult1 \fi0 Preserving Antebellum Print Culture\par
+\pard\plain\s21\qc\sa120\f0\fs24\sl480\slmult1 \fi360 Jason Peak\par
+\pard\plain\s21\qc\sa120\f0\fs24\sl480\slmult1 \fi360 \chdate \par
+{\pard\plain\s70\qc\sa120\b\f0\fs24\sl480\slmult1 \fi360 Abstract\par
+\pard\plain\s0\qj\widctlpar\f0\fs24\sl480\slmult1 \li1024\ri1024\fi360  {\par
+\pard\plain\s0\qj\widctlpar\f0\fs24\sl480\slmult1 \li1024\ri1024\fi0 \qc [Sorry. Ignored {\plain\f3\\begin\{singlespace\} ... \\end\{singlespace\}}]\par
+}}\pard\plain\s3\ql\sb240\sa120\keepn\f0\b\fs32\sl480\slmult1 \sb360 \fi0 1  Core Goals and Requirements\par
 \pard\plain\s0\qj\widctlpar\f0\fs24\sl480\slmult1 \sb60 \fi0 For the editions of the magazines that Poe edited, the page count is about 4,000. The primary project goal is the establishment of a digital repository containing the text and scanned image of each of these pages. In addition to making each page image available,the text should be fully searchable. Providing access to page images and text search tools implies an access-controlled, web-based interface. Maintaing the integrity of complex, mixed-media, multipage document records requires sturdy archival frameworks and flexible metadata standards. \par
 \pard\plain\s4\ql\sb240\sa120\keepn\f0\b\fs32\sl480\slmult1 \sb120 \fi0 1.1  Additional Opportunities\par
 \pard\plain\s0\qj\widctlpar\f0\fs24\sl480\slmult1 \sb60 \fi0 With core foundation blocks laid, the team will build up enhanced access services, including annotation, semantic search, and the infrastructure to expose the repository as linked open data. {\par
@@ -404,7 +410,13 @@ e1df746363e3d8b163949eff26c5c5c5141663c44fdcc5ddc3bc4b2e63357f58f1df6ab158befaea
 ]. For example, the Scholar\rquote s Lab has published their Fedora Connector for Omeka, which lets Omeka users populate exhibits and collections from the content of the Fedora repository. It does not, like Islandora, offer repository management functionality
 [{\field{\*\fldinst{\lang1024 REF BIB_fedora_connector \\* MERGEFORMAT }}{\fldrslt{10}}}
 ]. \par
-\pard\plain\s3\ql\sb240\sa120\keepn\f0\b\fs32\sl480\slmult1 \sb240 \fi0 4  Workflow\par
+\pard\plain\s3\ql\sb240\sa120\keepn\f0\b\fs32\sl480\slmult1 \sb240 \fi0 4  Migration\par
+\pard\plain\s0\qj\widctlpar\f0\fs24\sl480\slmult1 \sb60 \fi0 To date, a great deal of content has been located in collections, scanned and stored in the Omeka repository. Because Omeka is open source, developing a migration path for existing records will require careful execution, but little difficulty or uncertainty. Further, there is no technical or economic reason that this will need to be done in haste, as may be the case in a hosted environment where each megabyte incurs a certain cost per hosted minute. \par
+\pard\plain\s4\ql\sb240\sa120\keepn\f0\b\fs32\sl480\slmult1 \sb120 \fi0 4.1  Transition\par
+\pard\plain\s0\qj\widctlpar\f0\fs24\sl480\slmult1 \sb60 \fi0 Once an alternative platform is chosen, selected and thoroughly tested, the Omeka site can be put into a read-only state such that no further modifications to its records database can occur. With the database frozen, a full database backup, using mysqldump, will create a fixed-point snapshot of the database state, a restoration point. \par
+\pard\plain\s4\ql\sb240\sa120\keepn\f0\b\fs32\sl480\slmult1 \sb120 \fi0 4.2  Translation\par
+\pard\plain\s0\qj\widctlpar\f0\fs24\sl480\slmult1 \sb60 \fi0 Using knowledge gained in the course of developing custom Omeka plugins, data translation scripts will marshall complete records from the Omeka database tables and render each as a SIP ingestible by the new system. With all of its records safely ingested in the new system, the old system will remain in read-only state as a reference for as long as the team deems useful (probably a year).\par
+\pard\plain\s3\ql\sb240\sa120\keepn\f0\b\fs32\sl480\slmult1 \sb240 \fi0 5  Workflow\par
 \pard\plain\s0\qj\widctlpar\f0\fs24\sl480\slmult1 \sb60 \fi0 Workflow is loosely defined here. Inevitably, refinements will be made as issues are discovered and resolved. The acquisition process, from capture to ingest, can be imagined as a pipeline starting from the physical original and ending with an archival Submission Information Package (SIP). Stages in this pipeline include: {\par
 \pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs24\sl480\slmult1 \sb50 \li600\fi-300 1.\tab
 {Scan} \par
@@ -417,17 +429,11 @@ e1df746363e3d8b163949eff26c5c5c5141663c44fdcc5ddc3bc4b2e63357f58f1df6ab158befaea
 \pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs24\sl480\slmult1 \sb50 \li600\fi-300 5.\tab
 {packaging} \par
 }\pard\plain\s0\qj\widctlpar\f0\fs24\sl480\slmult1 \sb60 \fi0 While each stage will require human intervention and oversight, the OCR correction stage is expected to incur the most significant outlay of human resources. \par
-\pard\plain\s4\ql\sb240\sa120\keepn\f0\b\fs32\sl480\slmult1 \sb120 \fi0 4.1  Scan\par
+\pard\plain\s4\ql\sb240\sa120\keepn\f0\b\fs32\sl480\slmult1 \sb120 \fi0 5.1  Scan\par
 \pard\plain\s0\qj\widctlpar\f0\fs24\sl480\slmult1 \sb60 \fi0 We intend to use facilities in the Hill Memorial Library for the bulk of the scans. This equipment is designed to scan a full page spread, two facing pages, at a time, but each page is saved as a discrete file. Scanning will be applied to each page in each issue of each periodical in the project scope. \par
-\pard\plain\s4\ql\sb240\sa120\keepn\f0\b\fs32\sl480\slmult1 \sb120 \fi0 4.2  OCR to Text\par
+\pard\plain\s4\ql\sb240\sa120\keepn\f0\b\fs32\sl480\slmult1 \sb120 \fi0 5.2  OCR to Text\par
 \pard\plain\s0\qj\widctlpar\f0\fs24\sl480\slmult1 \sb60 \fi0 Full-text search requires that the text be converted from the printed page to machine readable format.\par
 \pard\plain\s0\qj\widctlpar\f0\fs24\sl480\slmult1 \fi360 The scanning process will operate at the page level and will require manual operation. It will take as input physical original peridical pages and return as output a simgle high resolution TIFF image per page and text extracted through OCR. The products of this process are the basis of the archive.\par
-\pard\plain\s3\ql\sb240\sa120\keepn\f0\b\fs32\sl480\slmult1 \sb240 \fi0 5  Migration\par
-\pard\plain\s0\qj\widctlpar\f0\fs24\sl480\slmult1 \sb60 \fi0 To date, a great deal of content has been located in collections, scanned and stored in the Omeka repository. Because Omeka is open source, developing a migration path for existing records will require careful execution, but little difficulty or uncertainty. Further, there is no technical or economic reason that this will need to be done in haste, as may be the case in a hosted environment where each megabyte incurs a certain cost per hosted minute. \par
-\pard\plain\s4\ql\sb240\sa120\keepn\f0\b\fs32\sl480\slmult1 \sb120 \fi0 5.1  Transition\par
-\pard\plain\s0\qj\widctlpar\f0\fs24\sl480\slmult1 \sb60 \fi0 Once an alternative platform is chosen, selected and thoroughly tested, the Omeka site can be put into a read-only state such that no further modifications to its records database can occur. With the database frozen, a full database backup, using mysqldump, will create a fixed-point snapshot of the database state, a restoration point. \par
-\pard\plain\s4\ql\sb240\sa120\keepn\f0\b\fs32\sl480\slmult1 \sb120 \fi0 5.2  Translation\par
-\pard\plain\s0\qj\widctlpar\f0\fs24\sl480\slmult1 \sb60 \fi0 Using knowledge gained in the course of developing custom Omeka plugins, data translation scripts will marshall complete records from the Omeka database tables and render each as a SIP ingestible by the new system. With all of its records safely ingested in the new system, the old system will remain in read-only state as a reference for as long as the team deems useful (probably a year).\par
 \pard\plain\s3\ql\sb240\sa120\keepn\f0\b\fs32\sl480\slmult1 \sb240 \fi0 6  Information Structure\par
 \pard\plain\s4\ql\sb240\sa120\keepn\f0\b\fs32\sl480\slmult1 \sb180 \fi0 6.1  METS Records\par
 \pard\plain\s0\qj\widctlpar\f0\fs24\sl480\slmult1 \sb60 \fi0 METS is a structural description and container format that can wrap other formats including TEI, RDF, MODS, EAD, etc. It enjoys widespread use and the endorsement of leading archival institutions, including the Library of Congress. As a structural description format, it is an ideal choice for storing records of multipage documents [citation]. Fedora uses METS.\par

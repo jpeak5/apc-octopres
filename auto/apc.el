@@ -22,11 +22,12 @@
      "article"
      "oneside"
      "12pt"
+     "tex/introduction"
      "tex/goals"
      "tex/current"
      "tex/forward"
      "tex/core-tools"
-     "tex/workflow"
      "tex/migration"
+     "tex/workflow"
      "tex/info-struct")))
 
