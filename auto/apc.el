@@ -12,19 +12,20 @@
      "needcite"
      "needswork")
     (TeX-run-style-hooks
+     "setspace"
      "float"
      "graphicx"
      "amsmath"
      "amssymb"
      "latex2e"
-     "art10"
+     "art12"
      "article"
      "oneside"
+     "12pt"
      "tex/goals"
      "tex/current"
      "tex/forward"
      "tex/core-tools"
-     "tex/formats"
      "tex/workflow"
      "tex/migration"
      "tex/info-struct")))
