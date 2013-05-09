@@ -1,4 +1,12 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{archivematica-main}
+Archivematica.
+\newblock Archivematica wiki homepage.
+
+\bibitem{daitss}
+Priscilla Caplan.
+\newblock Daitss, an oais-based preservation repository.
 
 \bibitem{drambora}
 Digital~Curation Center.
@@ -9,6 +17,10 @@ CRL, The Center for Research Libraries and OCLC Online Computer Library Center,
   Inc.
 \newblock {\em Trustworthy Repositories Audit \& Certification: Criteria and
   Checklist}, 2007.
+
+\bibitem{fedora-frontends}
+Daniel Davis.
+\newblock Web ui / front end applications.
 
 \bibitem{dow_elizabeth_2009}
 Elizabeth~H. Dow.
@@ -23,6 +35,18 @@ Center for Research~Libraries.
 Ross Harvey.
 \newblock {\em Digital Curation, A How-To-Do-It Manual}.
 \newblock Neal-Schuman, 2010.
+
+\bibitem{islandora-sandbox}
+Islandora.
+\newblock Islandora sandbox.
+
+\bibitem{fedora-connector}
+Scholar's Lab.
+\newblock Omeka fedora connector.
+
+\bibitem{fedora-meta-phil}
+Eric Peters.
+\newblock Fedora metadata storage philosophy.
 
 \bibitem{oais_image}
 poppen.

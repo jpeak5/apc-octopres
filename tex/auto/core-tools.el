@@ -3,6 +3,5 @@
     (TeX-run-style-hooks
      "tex/tdr"
      "tex/repository-tools"
-     "tex/access-tools"
-     "tex/administrative-tools")))
+     "tex/access-tools")))
 

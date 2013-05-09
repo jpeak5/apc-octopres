@@ -9,5 +9,11 @@
      "trac"
      "drambora"
      "trac_iso"
-     "oais_image")))
+     "oais_image"
+     "daitss"
+     "fedora-meta-phil"
+     "islandora-sandbox"
+     "archivematica-main"
+     "fedora-connector"
+     "fedora-frontends")))
 
