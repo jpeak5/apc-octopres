@@ -12,6 +12,7 @@
      "needcite"
      "needswork")
     (TeX-run-style-hooks
+     "float"
      "graphicx"
      "amsmath"
      "amssymb"
