@@ -1,14 +1,32 @@
 \begin{thebibliography}{1}
 
+\bibitem{drambora}
+Digital~Curation Center.
+\newblock Drambora: About, May 2013.
+
+\bibitem{trac}
+CRL, The Center for Research Libraries and OCLC Online Computer Library Center,
+  Inc.
+\newblock {\em Trustworthy Repositories Audit \& Certification: Criteria and
+  Checklist}, 2007.
+
 \bibitem{dow_elizabeth_2009}
 Elizabeth~H. Dow.
 \newblock {\em Electronic Records in the Manuscript Repository}.
 \newblock Scarecrow Press, Inc., 2009.
 
+\bibitem{trac_iso}
+Center for Research~Libraries.
+\newblock Iso 16363 / tdr, May 2013.
+
 \bibitem{harvey}
 Ross Harvey.
 \newblock {\em Digital Curation, A How-To-Do-It Manual}.
 \newblock Neal-Schuman, 2010.
+
+\bibitem{oais_image}
+poppen.
+\newblock Oais-.gif, May 2013.
 
 \bibitem{tei_sig_on_libraries_best_2011}
 {{TEI} {SIG} on Libraries}.

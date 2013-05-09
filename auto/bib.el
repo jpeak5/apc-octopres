@@ -5,5 +5,9 @@
      "tei_sig_on_libraries_best_2011"
      "lisa_spiro_archival_2009"
      "dow_elizabeth_2009"
-     "harvey")))
+     "harvey"
+     "trac"
+     "drambora"
+     "trac_iso"
+     "oais_image")))
 
